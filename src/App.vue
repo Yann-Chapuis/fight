@@ -5,7 +5,7 @@
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="sidebar-heading">Start Bootstrap </div>
       <div class="list-group list-group-flush">
-        <a href="index.html" class="list-group-item list-group-item-action bg-light">Personnages</a>
+        <a href="index.html" class="list-group-item list-group-item-action bg-light">Ville</a>
         <a href="donjons.html" class="list-group-item list-group-item-action bg-light">Donjons</a>
       </div>
     </div>
@@ -19,6 +19,19 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <img src="assets/icons/nobg/Building_01_nobg.png">
+        <span>Population</span>
+        <span>Nourriture</span>
+        <span>Bois</span>
+        <span>Pierre</span>
+        <span>Peaux</span>
+
+        <span>Fantassins</span>
+        <span>Cavaliers</span>
+        <span>Archers</span>
+        <span>Catapultes</span>
+
+        <span>Or</span>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -32,7 +45,7 @@
         </div>
       </nav>
 
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <City msg="Welcome to Your Vue.js App"/>
 
     </div>
     <!-- /#page-content-wrapper -->
@@ -42,12 +55,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import City from './components/City.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    City
   }
 }
 </script>
