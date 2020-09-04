@@ -3,43 +3,67 @@
         <h1 class="mt-4">Stats</h1>
         <div class="row">
           <div class="col-lg-4">
-            <span>Points disponibles : 5</span>
               <table class="table table-borderless">
                 <tbody>
                   <tr>
-                    <td>Force :</td>
-                    <td>{{force}}</td>
-                    <td><button type="button" class="btn btn-success">+</button></td>
-                  </tr>
-                  <tr>
-                    <td>Adresse :</td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-city" alt="">Forteresse +300/heure <span class="text-success">(+60/h)</span></td>
                     <td>1</td>
                     <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
                   </tr>
                   <tr>
-                    <td>Agilité :</td>
+                    <td><img v-bind:src="'/icons/nobg/habitation.png'" class="icons-city" alt="">Habitation +300/heure <span class="text-success">(+60/h)</span></td>
                     <td>1</td>
                     <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
                   </tr>
                   <tr>
-                    <td>Constitution :</td>
+                    <td><img v-bind:src="'/icons/nobg/ferme.png'" class="icons-city" alt="">Ferme +300/heure <span class="text-success">(+60/h)</span></td>
                     <td>1</td>
                     <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
                   </tr>
                   <tr>
-                    <td>Charisme :</td>
+                    <td><img v-bind:src="'/icons/nobg/bucheron.png'" class="icons-city" alt="">Bucheron +300/heure <span class="text-success">(+60/h)</span></td>
                     <td>1</td>
                     <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
                   </tr>
                   <tr>
-                    <td>Attaque :</td>
+                    <td><img v-bind:src="'/icons/nobg/mine.png'" class="icons-city" alt="">Mine de pierre +300/heure <span class="text-success">(+60/h)</span></td>
                     <td>1</td>
                     <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
                   </tr>
                   <tr>
-                    <td>Défense :</td>
+                    <td><img v-bind:src="'/icons/nobg/tannerie.png'" class="icons-city" alt="">Tannerie +300/heure <span class="text-success">(+60/h)</span></td>
                     <td>1</td>
                     <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
+                  </tr>
+                  <tr>
+                    <td><img v-bind:src="'/icons/nobg/caserne.png'" class="icons-city" alt="">Caserne +300/heure <span class="text-success">(+60/h)</span></td>
+                    <td>1</td>
+                    <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
+                  </tr>
+                  <tr>
+                    <td><img v-bind:src="'/icons/nobg/archerie.png'" class="icons-city" alt="">Archerie +300/heure <span class="text-success">(+60/h)</span></td>
+                    <td>1</td>
+                    <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
+                  </tr>
+                  <tr>
+                    <td><img v-bind:src="'/icons/nobg/ecurie.png'" class="icons-city" alt="">Ecurie +300/heure <span class="text-success">(+60/h)</span></td>
+                    <td>1</td>
+                    <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
+                  </tr>
+                  <tr>
+                    <td><img v-bind:src="'/icons/nobg/atelier_de_siege.png'" class="icons-city" alt="">Atelier de siège +300/heure <span class="text-success">(+60/h)</span></td>
+                    <td>1</td>
+                    <td><button type="button" class="btn btn-success">+</button></td>
+                    <td><img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 <img v-bind:src="'/icons/nobg/forteresse.png'" class="icons-top" alt="">1150 </td>
                   </tr>
                 </tbody>
               </table>

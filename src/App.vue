@@ -19,18 +19,36 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <img src="assets/icons/nobg/Building_01_nobg.png">
+        <img src="">
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Population</span>
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Nourriture</span>
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Bois</span>
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Pierre</span>
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Peaux</span>
 
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Fantassins</span>
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Cavaliers</span>
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Archers</span>
+
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Catapultes</span>
 
+        <img v-bind:src="'/icons/nobg/Building_01_nobg.png'" class="icons-top" alt="">
         <span>Or</span>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
